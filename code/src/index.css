@@ -1,5 +1,21 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.clock-container {
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  margin: auto;
 }
