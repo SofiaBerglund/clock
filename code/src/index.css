@@ -2,10 +2,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Mono', monospace;
+  background: #feeed7;
 }
 
 h1 {
   text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 50px;
+  font-family: Arial;
+  background-color: #feeed7;
+  cursor: pointer;
+}
+
+.clock-app {
+  background: white;
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px 0;
 }
 
 .clock-container {
@@ -16,6 +34,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 200px;
+  width: 250px;
   margin: auto;
 }
