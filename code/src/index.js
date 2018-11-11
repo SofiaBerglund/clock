@@ -3,7 +3,6 @@ import ReactDOM from "react-dom"
 import "./index.css"
 
 class Clock extends React.Component {
-
   state = {
     date: new Date()
   }
@@ -13,10 +12,7 @@ class Clock extends React.Component {
   }
 
   resumeTime = () => {
-    this.timerID = setInterval(
-      () => this.tick(),
-      1000
-    )
+    this.timerID = setInterval(() => this.tick(), 1000)
   }
 
   componentWillUnmount() {
@@ -47,7 +43,6 @@ class Clock extends React.Component {
       </div>
     )
   }
-
 }
 
-ReactDOM.render(<Clock/>, document.getElementById("root"))
+ReactDOM.render(<Clock />, document.getElementById("root"))
